@@ -1,0 +1,149 @@
+/*
+AmstelvarAlpha-VF is created by David Berlow (https://github.com/TypeNetwork/Amstelvar)
+and is used here under the terms of its license:
+https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
+*/
+
+@font-face {
+  src: url('https://mdn.mozillademos.org/files/16044/AmstelvarAlpha-VF.ttf');
+}
+
+  body {
+    font-family: sans-serif;
+    font-style: normal;
+    color: white;
+    background-color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+
+  header {
+    position: relative;
+    display: inline;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    background: #000;
+    color: #fff;
+  }
+
+  .profile {
+      /*   profile image property */
+    border-radius: 50%;
+    border: 3px solid #808080;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+
+  .portfoliothumb {
+          /*   profile image property */
+  }
+
+  h1 {
+    line-height: 55px;
+    font: 2rem 'AmstelvarAlpha', sans-serif;
+    letter-spacing: 3px;
+    display: inline;
+    line-height: 2.5;
+    color: red;
+  }
+
+  h2 {
+    line-height: 55px;
+    font: 1.5rem 'AmstelvarAlpha', sans-serif;
+    letter-spacing: 3px;
+    line-height: 2.5;
+    color: white;
+  }
+
+  nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: inline;
+    font: 1rem 'AmstelvarAlpha', sans-serif;
+  }
+
+  ul {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* nav list */
+
+  li {
+    display: inline;
+    color: white;
+    padding: 14px 5px;
+  }
+
+  li a {
+    display: inline;
+    color: white;
+    padding: 14px 5px;
+    text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: red;
+    color: black;
+  }
+
+li a:hover .tooltip {
+    background-color: black;
+    color: white;
+}
+
+  .active {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+
+  .intro {
+    font: 1.5rem 'AmstelvarAlpha', sans-serif;
+  }
+
+  p {
+    color: gray;
+  }
+
+  /* Container for our tooltip */
+  .tooltip { /* Container for our tooltip */
+    position: relative;
+    display: inline-block;
+  }
+
+  /* This is for the tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #000000;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+    border-radius: 10px;  /* This defines tooltip text position */
+    position: absolute;
+    z-index: 1;
+  }
+
+  /* Makes tooltip text visible when text is hovered on */
+  .tooltip:hover .tooltiptext {
+     visibility: visible;
+  }
+
+  footer {
+    font: .8rem 'AmstelvarAlpha', sans-serif;
+    position: absolute;
+    bottom: 0;
+    height: 2rem;
+  }
