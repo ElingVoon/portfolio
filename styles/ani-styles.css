@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 AmstelvarAlpha-VF is created by David Berlow (https://github.com/TypeNetwork/Amstelvar)
 and is used here under the terms of its license:
@@ -93,3 +94,100 @@ img:hover {
   100% {
     background-position: 500%;
   }
+=======
+/*
+AmstelvarAlpha-VF is created by David Berlow (https://github.com/TypeNetwork/Amstelvar)
+and is used here under the terms of its license:
+https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
+*/
+
+@font-face {
+  src: url('https://mdn.mozillademos.org/files/16044/AmstelvarAlpha-VF.ttf');
+}
+
+body {
+  font-family: sans-serif;
+  font-style: normal;
+  color: white;
+  background-color: black;
+  margin: auto;
+  padding: 0;
+  overflow-y: hidden;    /* Hide scrollbars */
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+img {
+
+  
+}
+
+h1 {
+  position: relative;
+  font-size: 3em;
+  letter-spacing: 4px;
+  background: linear-gradient(90deg, #000, #FFF, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 5s linear infinite alternate;
+  animation-delay: .5s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+h4 {
+  color: gray;
+  letter-spacing: 5px;
+  text-transform: lowercase;
+}
+
+h4 {
+  letter-spacing: 5px;
+  text-transform: lowercase;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a.link:hover {
+  display: block;
+  transform: rotateY(180deg);
+}
+
+a.image:hover {
+  display: block;
+}
+
+  /*   profile image property */
+img {
+  border-radius: 50%;
+  border: 3px solid #808080;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+img:hover {
+  /*  on hover scale profile image 125% */
+  transform: scale(1, 1);
+  border: 3px solid #FF0000;
+}
+
+.box {
+  animation: pulse .5s infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+
+  100% {
+    background-position: 500%;
+  }
+>>>>>>> 8a3ad7913124445878ade764ca919cae42539520
