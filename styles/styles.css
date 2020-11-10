@@ -18,13 +18,14 @@ https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
     padding-bottom: 25px;
   }
 
+
   header {
     position: relative;
     display: inline;
     max-width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding: 1rem 1rem;
+    padding: .5rem .5rem;
     background: #000;
     color: #fff;
   }
@@ -33,10 +34,8 @@ https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
       /*   profile image property */
     border-radius: 50%;
     border: 3px solid #808080;
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .portfoliothumb {
@@ -61,32 +60,26 @@ https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
   }
 
   nav {
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    display: inline;
     font: 1rem 'AmstelvarAlpha', sans-serif;
+    display: inline-block;
   }
 
-  ul {
-    display: inline;
+  nav ul {
+    display: flex;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    justify-content: flex-start;
   }
 
   /* nav list */
 
   li {
-    display: inline;
     color: white;
-    padding: 14px 5px;
+    padding: 0px 15px;
   }
 
   li a {
-    display: inline;
     color: white;
-    padding: 14px 5px;
+    padding: 10px 10px;
     text-decoration: none;
   }
 
@@ -103,7 +96,10 @@ li a:hover .tooltip {
 
   .active {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
     text-decoration-color: red;
+    text-underline-offset: 5px;
+
   }
 
   .intro {
@@ -116,14 +112,13 @@ li a:hover .tooltip {
 
   /* Container for our tooltip */
   .tooltip { /* Container for our tooltip */
-    position: relative;
-    display: inline-block;
+
   }
 
   /* This is for the tooltip text */
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    width: 150px;
     background-color: #000000;
     color: white;
     font-style: italic;
