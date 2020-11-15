@@ -21,27 +21,29 @@ body {
 }
 
 div.fontawesomebg {
-
-}
+ }
 
 div.fontawesomebg:before {
-position:absolute;
-
-z-index: -1;
-font-family: FontAwesome;
-font-size: 500px;
-color: #0b0b0b;
-top:0;
-left:0;
-margin-right: 5px;
-content: "\f121";
+  position:absolute;
+  z-index: -1;
+  font-family: FontAwesome;
+  font-size: 500px;
+  color: #0b0b0b;
+  top:0;
+  left:0;
+  margin-right: 5px;
+  content: "\f121";
 }
 
+.red {
+  color: red;
+}
 
 .btn {
   padding-left: 32px;
   position: relative;
 }
+
 .btn:before {
   position: absolute;
   font-family: 'FontAwesome';
