@@ -1,15 +1,6 @@
-/*
-AmstelvarAlpha-VF is created by David Berlow (https://github.com/TypeNetwork/Amstelvar)
-and is used here under the terms of its license:
-https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
-*/
-
-@font-face {
-  src: url('https://mdn.mozillademos.org/files/16044/AmstelvarAlpha-VF.ttf');
-}
-
   body {
-    font-family: sans-serif;
+    font-family: 'Architects Daughter', cursive;
+    font-width: 50%
     font-style: normal;
     color: white;
     background-color: black;
@@ -44,7 +35,7 @@ https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
 
   h1 {
     line-height: 55px;
-    font: 2rem 'AmstelvarAlpha', sans-serif;
+    font: 2rem 'Architects Daughter', cursive;
     letter-spacing: 3px;
     display: inline;
     line-height: 2.5;
@@ -53,14 +44,14 @@ https://github.com/TypeNetwork/Amstelvar/blob/master/OFL.txt
 
   h2 {
     line-height: 55px;
-    font: 1.5rem 'AmstelvarAlpha', sans-serif;
+    font: 1.5rem 'Architects Daughter', cursive;
     letter-spacing: 3px;
     line-height: 2.5;
     color: white;
   }
 
   nav {
-    font: 1rem 'AmstelvarAlpha', sans-serif;
+    font: 1rem 'Architects Daughter', cursive;
     display: inline-block;
   }
 
@@ -103,7 +94,7 @@ li a:hover .tooltip {
   }
 
   .intro {
-    font: 1.5rem 'AmstelvarAlpha', sans-serif;
+    font: 1.5rem 'Architects Daughter', cursive;
   }
 
   p {
@@ -137,7 +128,7 @@ li a:hover .tooltip {
   }
 
   footer {
-    font: .8rem 'AmstelvarAlpha', sans-serif;
+    font: .8rem 'Architects Daughter', cursive;
     position: absolute;
     bottom: 0;
     height: 2rem;
