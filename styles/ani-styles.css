@@ -12,13 +12,23 @@ body {
   color: white;
   background-color: black;
   margin: auto;
-  padding: 0;
   overflow-y: hidden;    /* Hide scrollbars */
-  align-items: center;
-  text-align: center;
-  height: 100vh;
   background-color: #000;
+
 }
+
+
+#container {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+
 
 div.fontawesomebg {
  }
@@ -81,7 +91,39 @@ a.link:hover {
 }
 
 a.image:hover {
-  display: block;
+  z-index: 100;
+}
+
+
+/* pulsating-circle ani */
+.circle {
+  border-radius: 50%;
+  background-color: deepskyblue;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  opacity: 0;
+  animation: scaleIn 5s infinite cubic-bezier(.36, .11, .89, .32);
+}
+
+.item {
+  z-index: 1;
+  padding: 5px;
+}
+
+.item img {
+  width: 43px;
+}
+
+@keyframes scaleIn {
+  from {
+  transform: scale(.5, .5);
+  opacity: .5;
+  }
+  to {
+  transform: scale(2, 2);
+  opacity: 0;
+  }
 }
 
   /*   profile image property */
@@ -89,15 +131,11 @@ img {
   border-radius: 50%;
   border: 3px solid #808080;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
-  margin-bottom: 10px;
 }
 
 img:hover {
   /*  on hover scale profile image 125% */
-  transform: scale(1, 1);
+  transform: scale(1.25, 1.25);
   border: 3px solid #FF0000;
 }
 
