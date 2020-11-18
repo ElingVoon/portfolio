@@ -151,6 +151,40 @@
     bottom: 0;
   }
 
+
+  /*   pulsating circle */
+
+  .pulse {
+    animation: none;
+    display: block;
+    width: 32px;
+    height: 32px;
+  }
+
+  .pulse:hover {
+    animation: pulse 2s infinite;
+    border-radius: 100%;
+    background: deepskyblue;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(15,210,246, 0.4);
+  }
+
+  @keyframes pulse {
+    0% {
+      -moz-box-shadow: 0 0 0 0 rgba(15,210,246, 0.4);
+      box-shadow: 0 0 0 0 rgba(15,210,246, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 30px rgba(15,210,246, 0);
+        box-shadow: 0 0 0 30px rgba(15,210,246, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(15,210,246, 0);
+        box-shadow: 0 0 0 0 rgba(15,210,246, 0);
+    }
+  }
+
+
   /* Nav animation - Wobble Horizontal */
   @-webkit-keyframes hvr-wobble-horizontal {
     16.65% {
