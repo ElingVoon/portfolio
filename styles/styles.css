@@ -1,12 +1,13 @@
   body {
-    font-family: 'Architects Daughter', cursive;
-    font-style: normal;
-    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: #cbd6e7;
     background-color: black;
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
     min-height: 100%;
+    overflow-x: hidden; /* Hide scrollbars */
   }
 
 
@@ -36,12 +37,21 @@
           /*   profile image property */
   }
 
+  .intro {
+    font: 1rem 'Open Sans', Arial, sans-serif;
+  }
+
+  p {
+
+}
+
   h1 {
     line-height: 55px;
     font: 2rem 'Architects Daughter', cursive;
     letter-spacing: 3px;
     color: red;
-  }
+}
+
 
   h2 {
     line-height: 55px;
@@ -89,15 +99,21 @@
     color: white;
   }
 
+  /* FontAwesome */
+  div.fontawesomebg {
+   }
 
-  .intro {
-    font: 1.3rem 'Architects Daughter', cursive;
+  div.fontawesomebg:before {
+    position:absolute;
+    z-index: -1;
+    font-family: FontAwesome;
+    font-size: 400px;
+    color: #0b0b0b;
+    right: 0;
+    bottom: 0;
+
+    content: "\f0a8";
   }
-
-  p {
-    color: gray;
-  }
-
 
 
   /* Container for our tooltip */
@@ -126,8 +142,11 @@
      visibility: visible;
   }
 
+  footer {
+  font-size: .7rem;
+}
+
   #footer {
-    font: .8rem 'Architects Daughter', cursive;
     position: absolute;
     bottom: 0;
   }

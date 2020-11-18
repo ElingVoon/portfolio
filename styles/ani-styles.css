@@ -20,6 +20,7 @@ div.fontawesomebg:before {
   position:absolute;
   z-index: -1;
   font-family: FontAwesome;
+  right: 0px;
   font-size: 500px;
   color: #0b0b0b;
   top:0;
