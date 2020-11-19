@@ -90,6 +90,10 @@
     text-decoration: none;
   }
 
+  ul > li:last-child > a:hover {
+    font-size: 1.2rem;
+  }
+
 
   /* add psudo element icon*/
   li::before {
@@ -124,9 +128,8 @@
   background-color: red;
   }
 
-
   li a:hover .tooltip {
-    background-color: black;
+    background-color: yellow;
     color: white;
   }
 
@@ -156,15 +159,15 @@
   /* This is for the tooltip text */
   .tooltip .tooltiptext {
     visibility: hidden;
-    width: 150px;
-    background-color: #000000;
+    width: 100px;
+    background-color: .muticolorbkg;
     color: white;
     font-style: italic;
     text-align: center;
     padding: 10px;
     margin-left: 10px;
     margin-top: -10px;
-    border-radius: 10px;  /* This defines tooltip text position */
+    border-radius: 5px;  /* This defines tooltip text position */
     position: absolute;
     z-index: 1;
   }
