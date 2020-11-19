@@ -91,7 +91,6 @@
 
   /* add psudo element icon*/
   li::before {
-    display: absolute;
     font-family: FontAwesome;
     content: "\f104";
     color: red;
@@ -101,7 +100,6 @@
   }
 
   li::after {
-    display: absolute;
     font-family: FontAwesome;
     content: "\f105";
     color: red;
