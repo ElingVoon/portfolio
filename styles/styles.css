@@ -88,6 +88,37 @@
     text-decoration: none;
   }
 
+
+  /* add psudo element icon*/
+  li::before {
+    display: absolute;
+    font-family: FontAwesome;
+    content: "\f104";
+    color: red;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+
+  li::after {
+    display: absolute;
+    font-family: FontAwesome;
+    content: "\f105";
+    color: red;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+
+  /* remove psudo element */
+  li.none::before {
+   display: none;
+ }
+
+ li.none::after {
+  display: none;
+}
+
   /* Change the link color to #111 (black) on hover */
   li a.hvr-wobble-horizontal:hover {
   background-color: red;
@@ -111,8 +142,7 @@
     color: #0b0b0b;
     right: 0;
     bottom: 0;
-    transform: rotate(25deg);
-    content: "\f0a8";
+    content: "\f060";
   }
 
 
