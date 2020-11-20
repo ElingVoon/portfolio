@@ -136,8 +136,7 @@
   }
 
   li a:hover .tooltip {
-    background-color: yellow;
-    color: white;
+
   }
 
   /* FontAwesome */
@@ -160,12 +159,14 @@
 
   /* Container for our tooltip */
   .tooltip { /* Container for our tooltip */
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 
   /* This is for the tooltip text */
 .tooltiptext {
     visibility: hidden;
-    width: 200px;
+    width: 20px;
     color: #FFFF00;
     font-size: 1.5rem;
     padding: 10px;
@@ -173,12 +174,19 @@
     margin-top: -10px;
     border-radius: 5px;  /* This defines tooltip text position */
     position: absolute;
-    z-index: 1;s
-  }
+    z-index: 1;
+    overflow: hidden;
+    transition-duration: 0.8s;
+}
+
 
   /* Makes tooltip text visible when text is hovered on */
   .tooltip:hover .tooltiptext {
     visibility: visible;
+    overflow: hidden;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    duration: infinite linear;
   }
 
   footer {
