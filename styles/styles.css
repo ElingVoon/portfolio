@@ -166,17 +166,17 @@
   /* This is for the tooltip text */
 .tooltiptext {
     visibility: hidden;
-    width: 20px;
+    width: 25px;
     color: #FFFF00;
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 2rem;
+    padding-left: 20px;
     margin-left: 10px;
-    margin-top: -10px;
+    margin-top: 0px;
     border-radius: 5px;  /* This defines tooltip text position */
     position: absolute;
     z-index: 1;
     overflow: hidden;
-    transition-duration: 0.8s;
+    transition-duration: .5s;
 }
 
 
@@ -186,7 +186,6 @@
     overflow: hidden;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
-    duration: infinite linear;
   }
 
   footer {
