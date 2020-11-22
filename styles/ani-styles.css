@@ -14,7 +14,7 @@ body {
 }
 
 
-div.fontawesomebg:before {
+.fontawesomebg {
   position:absolute;
   z-index: -1;
   font-family: FontAwesome;
