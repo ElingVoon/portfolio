@@ -13,8 +13,6 @@ body {
   background-color: #000;
 }
 
-div.fontawesomebg {
- }
 
 div.fontawesomebg:before {
   position:absolute;
@@ -29,22 +27,6 @@ div.fontawesomebg:before {
   content: "\f121";
 }
 
-.red {
-  color: red;
-}
-
-.btn {
-  padding-left: 32px;
-  position: relative;
-}
-
-.btn:before {
-  position: absolute;
-  font-family: 'FontAwesome';
-  top: 0;
-  left: 10px;
-  content: "\f122";
-}
 
 h1 {
   position: relative;
