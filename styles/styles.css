@@ -102,22 +102,21 @@
 
   /* add psudo element icon*/
   li::before {
-    font-family: FontAwesome;
-    font-weight: 900;
-    content: "\f104"; /* code icon */
+    content: "\003C";
     color: red;
     margin-right: 5px;
     margin-left: 5px;
     font-size: 1rem;
+    font-weight: 900;
   }
 
   li:after {
-    font-family: FontAwesome;
-    content: "\f105";
+    content: "\003E";
     color: red;
     margin-right: 5px;
     margin-left: 5px;
     font-size: 1rem;
+    font-weight:900;
   }
 
   /* remove psudo element */
@@ -152,6 +151,7 @@
     font-family: FontAwesome;
     font-size: 400px;
     color: #0b0b0b;
+
     right: 0;
     bottom: 0;
     content: "\f060";
