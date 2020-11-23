@@ -14,18 +14,7 @@ body {
 }
 
 
-.fontawesomebg {
-  position:absolute;
-  z-index: -1;
-  font-family: FontAwesome;
-  right: 0px;
-  font-size: 500px;
-  color: #0b0b0b;
-  top:0;
-  left:0;
-  margin-right: 5px;
-  content: "\f121";
-}
+
 
 
 h1 {
@@ -122,7 +111,21 @@ img:hover {
   color: red;
 }
 
-
+  /*   fontawesome */
+.btn {
+  position: relative;
+}
+.btn:before {
+  position: absolute;
+  font-family: 'FontAwesome';
+  z-index: -1;
+  color: #0b0b0b;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  font-size: 500px;
+  content: "\f121";
+}
 
 
 @keyframes animate {
