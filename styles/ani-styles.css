@@ -117,6 +117,14 @@ img:hover {
   animation: pulse .5s infinite;
 }
 
+.red
+{
+  color: red;
+}
+
+
+
+
 @keyframes animate {
   0% {
     background-position: -500%;
