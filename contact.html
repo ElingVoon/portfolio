@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5cba061331.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header class="Container">
+      <a href="index.html"><img class="profile pulse" src="images/eling.png" width="33" height="33" alt="this is a smiley profile pic"></a>
+
+      <nav>
+        <ul>
+        <li class="none"><a href="about-me.html" class="hvr-wobble-horizontal">About me</a></li>
+        <li class="none"><a class="hvr-wobble-horizontal" href="project.html">Project</a></li>
+        <li>Contact</li>
+        <li class="none"><a class="tooltip hvr-wobble-horizontal" href="lab.html">Lab<span class="tooltiptext">
+          <i class="far fa-file-code"> </i>
+        </span></a></li>
+       </ul>
+      </nav>
+    </header>
+
+      <main>
+
+        <h1>
+        Contact Me
+        </h1>
+        Hi, before you preceed to contact me, I need to know a couple of things.
+
+      <form action="" method="GET" name="contact form">
+
+        <p>
+        <fieldset>
+        <legend>What skill is needed</legend>
+
+        <label>HTML
+        <input type="checkbox" name="HTML" value="html">
+        </label>
+
+        <label>CSS
+        <input type="checkbox" name="CSS" value="css">
+        </label>
+
+        <label>UX
+        <input type="checkbox" name="UX" value="ux">
+        </label>
+      </fieldset>
+
+    <p>
+
+
+
+
+        <legend>Can this project be conducted remotly?</legend>
+      <label>Yes
+      <input type="radio" name="project" value="yes">
+      </label>
+
+      <label>No
+      <input type="radio" name="project" value="No">
+      </label>
+
+<P>
+          <label for="first-name">First name
+          <input type="text" name="first-name" value="">
+
+          <label for="last-name">Last name <input type="text" name="last-name" value="">
+          </label><br>
+
+          <label>Email
+            <input type="email" name="email" value="">
+          </label>
+
+      <div class="">
+      <label>Message</label>
+      <textarea rows="5"  placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+      <p class="help-block text-danger"></p>
+      </div>
+
+      <label>
+      <input type="submit" name="submit" value="send">
+      </label>
+
+  </body>
+</html>
