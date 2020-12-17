@@ -29,59 +29,52 @@
       <main>
 
         <h1>
-        Contact Me
+          Contact me
         </h1>
-        Hi, what skills are you looking for in the designer?
 
       <form action="" method="GET" name="contact form">
 
-        <fieldset class="checkbox">
-          <legend>Skill that I'm looking for</legend>
-
-            <label>HTML
-              <input type="checkbox" name="HTML" value="html">
-              <span class="checkmark"></span>
-            </label>
-
-            <label>CSS
-              <input type="checkbox" name="CSS" value="css">
-              <span class="checkmark"></span>
-            </label>
-
-            <label>UX
-              <input type="checkbox" name="UX" value="ux">
-              <span class="checkmark"></span>
-            </label>
-        </fieldset>
-
-        <legend>Can this project be conducted remotely?</legend>
-          <label>Yes
-        <input type="radio" name="project" value="yes">
+          <label for="first-name">First name
+            <input type="text" id="first-name" name="first-name" value="">
           </label>
 
-        <label>No
-          <input type="radio" name="project" value="No">
-        </label>
-
-          <label for="first-name">First name
-          <input type="text" name="first-name" value="">
-
-          <label for="last-name">Last name <input type="text" name="last-name" value="">
-          </label><br>
+          <label for="last-name">Last name
+            <input type="text" id="last-name" name="last-name" value="">
+          </label>
 
           <label>Email
             <input type="email" name="email" value="">
           </label>
 
-      <div class="">
-      <label>Message</label>
-      <textarea rows="5" cols="50" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-      <p class="help-block text-danger"></p>
-      </div>
+          <label>Phone
+            <input type="tel" name="phone" required>
+          </label>
 
-      <label>
-      <input type="submit" name="submit" value="send">
-      </label>
+        <fieldset>
+          <legend>Nature of the Contact</legend>
+            <label class="container">Just want to say Hi
+            <input type="radio" name="contact nature" value="say hi">
+            <span class="checkmark"></span>
+          </label>
+          <label class="container">Urgent
+            <input type="radio" name="contact nature" value="urgent">
+            <span class="checkmark"></span>
+          </label>
+        </fieldset>
 
+        <div>
+            <label>Message</label>
+            <textarea rows="5" cols="50" placeholder="" id="message" required data-validation-required-message="Please enter a message."></textarea>
+        </div>
+
+        <div>
+          <label>
+          <input type="submit" name="submit" value="send">
+          </label>
+        </div>
+
+      </main>
+
+    <footer>&copy; Eling Voon 2020</footer>
   </body>
 </html>
