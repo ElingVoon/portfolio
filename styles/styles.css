@@ -317,3 +317,97 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
+
+    /* contact form */
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: 100%;
+      box-sizing: border-box;
+      display: block;
+      margin: 1rem;
+    }
+
+    input[type=submit] {
+      width: 100%;
+      background-color: deepskyblue;
+    }
+
+    input {
+      border-radius: 5px;
+    }
+
+    fieldset {
+      display: block;
+      margin-left: 2px;
+      margin-right: 2px;
+      padding-top: 0.35em;
+      padding-bottom: 0.625em;
+      padding-left: 0.75em;
+      padding-right: 0.75em;
+      border: none;
+    }
+
+    fieldset input {
+      display: inline;
+    }
+
+/* hide the browser's default checkbox */
+  .checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+  }
+
+  /* customize the labels */
+  .checkbox label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+
+  /* create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #999;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 3px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
