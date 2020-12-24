@@ -324,6 +324,7 @@
       font-size: 100%;
       box-sizing: border-box;
       display: block;
+      width: 100vh;
       margin: 1rem 0px 1rem 0px;
     }
 
@@ -360,7 +361,7 @@
 
     }
 
-    /* The container */
+    /* The container for form */
     .container {
       display: block;
       position: relative;
