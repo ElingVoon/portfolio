@@ -330,7 +330,7 @@
 
     input[type="submit"] {
       width: 100%;
-      background-color: #03a3df;
+      background-color: #037CB0;
       border: none;
       color: white;
       padding: 16px 32px;
@@ -341,16 +341,16 @@
     }
 
     input[type="submit"]:hover {
-    	background: rgba(3, 163, 233, 0.5);
+    	background: #036D9B;
     }
 
     input[type="submit"]:active {
-      background: blue;
+      background: #015270;
     }
 
     input:focus {
       outline: 0;
-      box-shadow: 0 0 0 3px rgba(0, 123, 255, .5);
+      box-shadow: #036D9B;
     }
 
     input {
