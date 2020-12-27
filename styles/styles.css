@@ -129,11 +129,7 @@
 }
 
   /* Change the link color to #111 (black) on hover */
-  li a.hvr-wobble-vertical:hover {
-    background-color: ;
-    padding-left: ;
-    padding-right: ;
-  }
+
 
   li a:hover .tooltip {
 
@@ -348,17 +344,11 @@
       background: #015270;
     }
 
-    input:focus {
-      outline: 0;
-      box-shadow: #036D9B;
-    }
-
     input {
       border-radius: 5px;
     }
 
     input[type="radio"] {
-
     }
 
     /* The container for form */
